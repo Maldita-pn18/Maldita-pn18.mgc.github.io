@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>Mideterm_SDElective</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+    <center>
+        <header>
+            <h3><b>IOT Switch</b></h3>
+        </header>
+        <br>
+        <div>
+            <br><br>
+            <p id="status"><i>The device is currently turned off.</i></p>
+            <button id="Btnconnect" class="btn btn-success btn-xs" type="button">On</button>
+            <button id="Btndisconnect" class="btn btn-danger btn-xs" type="button">Off</button>
+        </div>
+    </center>
+</body>
+<script src="scripts/browserMqtt.js"></script>
+<script src="scripts/controller.js"></script>
+
+</html>
